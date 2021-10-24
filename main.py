@@ -52,34 +52,7 @@ def exibir_dia_da_semena_if(numero):
         print('O dia é domingo')
     else:
         print('Número de dia inválido. Digite um número de 1 a 7.')
-'''
-def exibir_dia_da_semana_match(numero):
-    print('Execução com Match')
-    match numero:
-        case 1:
-            print('O dia é segunda')
-            exit
-        case 2:
-            print('O dia é terça')
-            exit
-        case 3:
-            print('O dia é quarta')
-            exit
-        case 4:
-            print('O dia é quinta')
-            exit
-        case 5:
-            print('O dia é sexta')
-            exit
-        case 6:
-            print('O dia é sabado')
-            exit
-        case 7:
-            print('O dia é domingo')
-            exit
-        case _:
-            print('Número de dia inválido. Digite um número de 1 a 7.')
-'''
+
 def brincar_de_para_ou_continua():
     resposta = 'C' # C aqui significa continua
 
